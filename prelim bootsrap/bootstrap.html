@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Website</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  
+<nav class="navbar navbar-expand-lg navbar-dark " style="height: 70px; background-color:rgb(59, 68, 145) ;  ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">My Website</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse d-flex justify-content-end w-100" id="navbarNav">
+        
+        <ul class="navbar-nav d-flex align-items-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#blog">Blog</a>
+          </li>
+          <li class="nav-item ms-3">
+            <a href="#contact" class="btn btn-outline-light">Contact Me</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  
+
+  
+  <section id="home" class="py-5" style="height: 100ch; position: relative;" >
+
+    <div class="background-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(92, 98, 114, 0.5); z-index: 0; ;"></div>
+
+    <div class="container d-flex align-items-center justify-content-center" style="height: 100%; position: relative; z-index: 1;">
+     
+      <div class="profile-img-container me-4">
+        <img src="pictures/45713004_1941105062640754_2253246968555896832_n.jpg" alt="Profile Image" class="profile-img rounded-circle border border-light" style="width: 150px; height: 150px;">
+      </div>
+
+      <div class="text-center">
+        <h1 class="text-white">Welcome to My Website</h1>
+        <p class="text-white-50">Hi! I'm Mark Ruez L. Macababayao, and this is my personal website.</p>
+        <!-- Contact Me Button -->
+        <a href="#contact" class="btn btn-outline-light btn-lg">Contact Me</a>
+      </div>
+    </div>
+
+   
+    <div style="background-image: url('pictures/istockphoto-1432551033-640x640.jpg'); background-size: cover; background-position: center; position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: -1;"></div>
+  </section>
+
+  
+<section id="skills" class="py-5" style="background-color:rgb(103, 145, 201)">
+    <div class="container text-center">
+      <div class="row justify-content-center">
+        <div class="col-md-3 mb-4">
+          <div class="skill-item">
+            <img src="pictures/photo-camera_7083449.png" alt="PHOTOGRAPHER">
+            <p class="mt-3">PHOTOGRAPHER</p>
+          </div>
+        </div>
+  
+        <div class="col-md-3 mb-4">
+          <div class="skill-item">
+            <img src="pictures/gamepad_17507234.png" alt="GAME DESIGNER">
+            <p class="mt-3">GAME DESIGNER</p>
+          </div>
+        </div>
+  
+        <div class="col-md-3 mb-4">
+          <div class="skill-item">
+            <img src="pictures/developer_6867320.png" alt="WEB DEVELOPER">
+            <p class="mt-3">WEB DEVELOPER</p>
+          </div>
+        </div>
+  
+        <div class="col-md-3 mb-4">
+          <div class="skill-item">
+            <img src="pictures/drummer_1126645.png" alt="DRUMMER">
+            <p class="mt-3">DRUMMER</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+
+  
+  <section id="about" class="py-5 bg-light" >
+    <div class="container">
+      <div class="row justify-content-center">
+       
+        <div class="col-md-6">
+          <h3 class="text-center mb-4" style="font-size: 2.5rem; font-weight: 600;">About Me</h3>
+          <p style="font-size: 1.1rem;">
+            Hello! I'm Mark Ruez L. Macababayao, a passionate developer and photographer with a love for creativity and problem-solving. I find joy in developing software that helps people and expressing my artistic side through photography. At the age of 22, I am constantly learning and growing, both in my technical skills and in my ability to capture the beauty of the world around me through the lens. Born on December 18, 2002, I've always been curious about technology and art, and I aim to combine both of these passions to create meaningful work.
+            <br><br>
+            Whether I'm coding a new project or capturing a moment in time, I'm driven by the idea that both development and photography have the power to tell powerful stories and shape experiences. I'm excited to share my journey with you and hope that my work resonates with you!
+          </p>
+        </div>
+
+        
+        <div class="col-md-6 d-flex justify-content-center align-items-center">
+          <img src="pictures/278739895_509786023980261_6677319789844568411_n.jpg" alt="Your Image" class="img-fluid rounded shadow" style="max-width: 300px;">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="hobby-banner" class="py-5 bg-light">
+    <div class="container text-center">
+      <h2 class="mb-4">My Hobbies</h2>
+      <div class="row">
+        <div class="col-md-3 mb-4">
+          <div class="card h-100">
+            <div class="card-body d-flex flex-column align-items-center" >
+              <i class="bi bi-airplane-engines" style="font-size: 3rem; color: #007bff;"></i>
+              <p class="mt-3">Travel</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-4">
+          <div class="card h-100">
+            <div class="card-body d-flex flex-column align-items-center" ">
+              <i class="bi bi-controller" style="font-size: 3rem; color: #007bff;"></i>
+              <p class="mt-3">Playing Games</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-4">
+          <div class="card h-100">
+            <div class="card-body d-flex flex-column align-items-center" >
+              <i class="bi bi-camera-video" style="font-size: 3rem; color: #007bff;"></i>
+              <p class="mt-3">Watching Movies</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-4">
+          <div class="card h-100">
+            <div class="card-body d-flex flex-column align-items-center" >
+              <i class="bi bi-headphones" style="font-size: 3rem; color: #007bff;"></i>
+              <p class="mt-3">Listening to Music</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+<section id="blog" class="py-5" style="background-color: rgb(103, 145, 201); height: 100vh;">
+    <div class="container">
+      <h2 class="mb-4 text-center">My Blog</h2>
+      <div class="row">
+       
+        <div class="col-md-3 mb-4">
+          <div class="blog-post">
+            <img src="pictures/f4526278-image_tokyo.jpg" class="img-fluid" alt="Blog Topic 1" style="object-fit: cover; height: 200px;">
+            <div class="blog-content">
+              <h5 class="blog-title">Travel to Japan</h5>
+              <p class="blog-text">My first time traveling in Japan with so many attractions.</p>
+              <a href="#" class="btn btn-outline-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+  
+        
+        <div class="col-md-3 mb-4">
+          <div class="blog-post">
+            <img src="pictures/886855cf95def0323c3155c906de02cd.jpg" class="img-fluid" alt="Blog Topic 2" style="object-fit: cover; height: 200px;">
+            <div class="blog-content">
+              <h5 class="blog-title">Play Some Games</h5>
+              <p class="blog-text">Play some games and have fun with my friends.</p>
+              <a href="#" class="btn btn-outline-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+  
+       
+        <div class="col-md-3 mb-4">
+          <div class="blog-post">
+            <img src="pictures/117546657_176614050733685_4849916113877806747_n.jpg" class="img-fluid" alt="Blog Topic 3" style="object-fit: cover; height: 200px;">
+            <div class="blog-content">
+              <h5 class="blog-title">Go to School</h5>
+              <p class="blog-text">Here’s what I’m doing when I’m going to school.</p>
+              <a href="#" class="btn btn-outline-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+  
+        
+        <div class="col-md-3 mb-4">
+          <div class="blog-post">
+            <img src="pictures/depositphotos_166355024-stock-photo-desk-with-computer-and-pen.jpg" class="img-fluid" alt="Blog Topic 4" style="object-fit: cover; height: 200px;">
+            <div class="blog-content">
+              <h5 class="blog-title">Create a Website for Project</h5>
+              <p class="blog-text">Here’s a glimpse of my blog post about creating a website project.</p>
+              <a href="#" class="btn btn-outline-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+  
+       
+        <div class="col-md-3 mb-4">
+          <div class="blog-post">
+            <img src="pictures/18080a3bcb40a439df3f0e525d83295d.webp" class="img-fluid" alt="Blog Topic 5" style="object-fit: cover; height: 200px;">
+            <div class="blog-content">
+              <h5 class="blog-title">Exploring New Tech</h5>
+              <p class="blog-text">The latest developments in tech that have caught my attention.</p>
+              <a href="#" class="btn btn-outline-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+  
+        
+        <div class="col-md-3 mb-4">
+          <div class="blog-post">
+            <img src="pictures/photo-1497316730643-415fac54a2af.jpg" class="img-fluid" alt="Blog Topic 6" style="object-fit: cover; height: 200px;">
+            <div class="blog-content">
+              <h5 class="blog-title">Photography Adventures</h5>
+              <p class="blog-text">Sharing some of my best moments captured through photography.</p>
+              <a href="#" class="btn btn-outline-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+  
+        
+        <div class="col-md-3 mb-4">
+          <div class="blog-post">
+            <img src="pictures/Untitled.jpg" class="img-fluid" alt="Blog Topic 7" style="object-fit: cover; height: 200px;">
+            <div class="blog-content">
+              <h5 class="blog-title">Game Development Journey</h5>
+              <p class="blog-text">The process of developing a game, from concept to execution.</p>
+              <a href="#" class="btn btn-outline-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+  
+        
+        <div class="col-md-3 mb-4">
+          <div class="blog-post">
+            <img src="pictures/download.jpg" class="img-fluid" alt="Blog Topic 8" style="object-fit: cover; height: 200px;">
+            <div class="blog-content">
+              <h5 class="blog-title">Chicken adobo</h5>
+              <p class="blog-text">A personal blog post about cooking my meals .</p>
+              <a href="#" class="btn btn-outline-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  
+  <section id="contact" class="py-5 bg-light" >
+    <div class="container">
+      <h2 class="mb-4">Contact Me</h2>
+      <p>If you'd like to get in touch, feel free to reach out through the contact form below or by email.</p>
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">Your Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Your Email</label>
+          <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Your Message</label>
+          <textarea class="form-control" id="message" rows="4" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-outline-primary">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class=" text-white py-3 text-center" style="background-color: rgb(59, 68, 145)">
+    <p>&copy; 2025 Mark Ruez L. Macababayao. All Rights Reserved.</p>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
